@@ -1,36 +1,59 @@
-.container {
-  display: flex;
+body {
+  background-color: #DCFFFD;
 }
 
+header {
+  text-align: center;
+  padding-bottom: 50px;
+}
 
+.container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.game {
+  display: flex;
+  justify-content: space-around;
+  max-width: 500px;
+}
 .grid {
-  width: 200px;
-  height: 400px;
+  border: 3px solid #2B303A;
+  border-radius: 5px;
   display: flex;
   flex-wrap: wrap;
-  background-color: yellow;
+  width: 250px;
+  height: 500px;
+  background-color: #E1CE7A;
 }
 
 .grid div {
-  height: 20px;
-  width: 20px;
+  height: 25px;
+  width: 25px;
 }
 
 .tetromino {
   background-color: blue;
 }
 
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  align-items:  center;
+}
 
 .mini-grid {
+  border: 3px solid #2B303A;
+  border-radius: 5px;
   margin-left: 50px;
-  width: 80px;
-  height: 80px;
+  width: 100px;
+  height: 100px;
   display: flex;
   flex-wrap: wrap;
-  background-color: yellow;
+  background-color: #E1CE7A;
 }
 
 .mini-grid div {
-  height: 20px;
-  width: 20px;
+  height: 25px;
+  width: 25px;
 }
